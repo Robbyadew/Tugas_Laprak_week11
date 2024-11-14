@@ -1,0 +1,22 @@
+import math
+
+nomor_angka = float(input("Masukkan nomor Angka = "))
+akarkuadrat = math.sqrt(nomor_angka)
+print(f"Akar Kuadrat dari {nomor_angka} = {akarkuadrat}")
+
+desimal = float(input("Masukkan Angka desimal = "))
+pembulatanatas = math.ceil(desimal)
+print(f"Pembulatan Desimal {desimal} = {pembulatanatas}")
+
+nomor_angka_factorial = int(input("Masukkan Angka faktorial = "))
+factorial = math.factorial(nomor_angka_factorial)
+print(f"Factorial dari {nomor_angka_factorial} = {factorial}")
+
+numberslog = float(input("Masukkan Angka Log = "))
+logaritma = math.log10(numberslog)
+print(f"Logaritma 10 adalah {numberslog} = {logaritma}")
+
+derajat = float(input("Masukkan sudut derajat = "))
+radian = math.radians(derajat)
+print(f"Konversi {derajat} ke dalam radians {radian}")
+
