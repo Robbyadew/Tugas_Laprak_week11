@@ -1,0 +1,5 @@
+import Robb
+
+print("luas lingkaran:", Robb.luas_lingkaran())
+print("luas persegi:", Robb.luas_persegi())
+print("luas persegi panjang:", Robb.luas_persegi_panjang())
